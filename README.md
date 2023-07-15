@@ -47,6 +47,12 @@ Five characteristics of different individuals commonly known as big five charact
 5. Run the app <br>
 `python app.py`
 
+## Docker
+1. Build docker image <br>
+`docker build -t personality-prediction:1.0.0 -f Dockerfile .`
+2. Run docker image in a container <br>
+`docker run --name personality-prediction-container -p 5000:5000  personality-prediction:1.0.0`
+
 ## Tech Stack :
 - Flask
 - Python
